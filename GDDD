@@ -1,0 +1,4 @@
+lol=game.Players.LocalPlayer.Character.CharacterStats.LimbStats
+for i,v in pairs(lol:GetChildren()) do
+    v:Destroy()
+end
